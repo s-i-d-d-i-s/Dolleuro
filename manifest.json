@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dollaro",
+    "version": "1.0",
+    "description": "Convert Euro to Dollar on different platforms",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://de.scalable.capital/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
